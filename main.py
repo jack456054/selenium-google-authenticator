@@ -15,7 +15,7 @@ def get_otp() -> str:
     return pyotp.TOTP(otp_secret).now()
 
 
-if __name__ == '__main__':
+def login_google():
     driver = webdriver.Chrome()
     driver.get('https://accounts.google.com/ServiceLogin')  # URL.
 
@@ -68,3 +68,7 @@ if __name__ == '__main__':
     ).click()
 
     sleep(10)  # For showing the result.
+
+
+if __name__ == '__main__':
+    login_google()
