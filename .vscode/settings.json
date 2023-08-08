@@ -1,0 +1,16 @@
+{
+    "editor.formatOnSave": true,
+    // black settings
+    "python.formatting.provider": "none",
+    "python.formatting.blackArgs": [
+        "--skip-string-normalization",
+    ],
+    // linter settings
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--ignore=E203,E501,W503,W504,D100,D101,D102,D103,D106,D107",
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+}
