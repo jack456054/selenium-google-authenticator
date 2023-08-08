@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "selenium-google-authenticator"
+version = "0.1.0"
+description = ""
+authors = ["Yoyo <jack456054@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "selenium_google_authenticator"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.11.2"
+webdriver-manager = "^4.0.0"
+pyotp = "^2.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
