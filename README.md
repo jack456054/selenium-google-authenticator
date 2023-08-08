@@ -9,8 +9,6 @@ Install Poetry (https://python-poetry.org/docs/#installation) and run `poetry in
 
 ```$ brew install poetry```
 
-```$ poetry install```
-
 Install Python(3.11.4) dependencies
 
 ```$ poetry install```
