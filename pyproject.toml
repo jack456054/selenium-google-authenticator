@@ -4,7 +4,6 @@ version = "0.1.0"
 description = ""
 authors = ["Yoyo <jack456054@hotmail.com>"]
 readme = "README.md"
-packages = [{include = "selenium_google_authenticator"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
