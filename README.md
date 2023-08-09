@@ -4,7 +4,6 @@
 This is a simple Python script that uses `Selenium` + `pyotp` to automate the process of logging into a Google account with Google Authenticator enabled. It is useful for people who have multiple Google accounts and want to automate the process of logging into their Google accounts.
 
 ## Installation
-
 Install Poetry (https://python-poetry.org/docs/#installation) and run `poetry install` in the root directory of the project.
 
 ```$ brew install poetry```
@@ -14,7 +13,6 @@ Install Python(3.11.4) dependencies
 ```$ poetry install```
 
 ## Setup environment variables
-
 Create a `.env` file in the root directory of the project and add the following variables:
 
 ```
@@ -33,6 +31,7 @@ Login to your Google Account and go to the [Google Authenticator](https://myacco
 ![Alt text](<images/Screenshot 2023-08-08 at 6.38.47 PM.png>)
 
 You can find you OTP secret key like:
+
 ```xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx```
 
 Fill in the `opt_secret` variable in the `.env` file with the secret key(without withespaces), which should look like this:
