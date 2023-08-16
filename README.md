@@ -55,4 +55,5 @@ The Time-based One-time Password Algorithm(TOTP) is an algorithm that computes a
 - https://zh.wikipedia.org/wiki/HMAC
 - https://medium.com/starbugs/totp-2fa-algorithm-in-10-mins-25acc3c35df9
 - https://medium.com/@henry-chou/%E6%B7%B1%E5%85%A5%E6%B7%BA%E5%87%BA%E5%85%A9%E9%9A%8E%E6%AE%B5-2fa-%E9%A9%97%E8%AD%89-1af65be74420
+- https://www.tsnien.idv.tw/Security_WebBook/chap4/4-4%20SHA-1%20%E6%BC%94%E7%AE%97%E6%B3%95.html
 - https://joyofcryptography.com
